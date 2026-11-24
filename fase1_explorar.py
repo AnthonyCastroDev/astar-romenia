@@ -15,3 +15,11 @@ print()
 print('Vizinhos de Arad:', vizinhos_arad)
 print('Tipo do valor:', type(vizinhos_arad))
 print('Tipo do valor:', type(mapa_romenia))
+
+# ----- PASSO 4: pegar uma tupla e as partes dela ----
+
+primeira = vizinhos_arad[0]
+print()
+print('Primeira estrada que sai de Arad:', primeira)
+print('  posição [0] -> cidade vizinha:', primeira[0])
+print('  posição [1] -> custo em km   :', primeira[1])
