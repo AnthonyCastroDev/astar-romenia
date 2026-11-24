@@ -5,3 +5,7 @@
 # ----- PASSO 1: trazer os dados do arquivo mapa.py -----
 from mapa import mapa_romenia, heuristica_bucareste
 
+# ----- PASSO 2: quantas cidades existem? -----
+print('Quantidade de cidades no mapa:', len(mapa_romenia))
+print('Quantidade de valores de h(n):', len(heuristica_bucareste))
+
