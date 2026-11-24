@@ -30,3 +30,10 @@ print()
 print('Estradas que saem de Arad:')
 for vizinho, custo in mapa_romenia['Arad']:
     print('  Arad ->', vizinho, '=', custo, 'km')
+
+  # ----- PASSO 6: percorrer o mapa inteiro ----
+print()
+print('Número de estradas de cada cidade:')
+for cidade in mapa_romenia:
+    quantidade = len(mapa_romenia[cidade])
+    print(f'  {cidade:<15} {quantidade} estrada(s)')
