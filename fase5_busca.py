@@ -29,3 +29,9 @@ def busca_a_estrela(inicio, objetivo):
                 fronteira.append((novo_f, novo_g, vizinho, caminho + [vizinho]))
 
     return None, float('inf')
+
+# ----- PASSO 3: chamar a função e mostrar o resultado -----
+caminho, custo = busca_a_estrela('Arad', 'Bucharest')
+print('Caminho:', ' -> '.join(caminho))
+print('Custo :', custo, 'km')
+print('Passos :', len(caminho) - 1, 'estradas')
