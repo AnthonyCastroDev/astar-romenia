@@ -15,7 +15,7 @@ Projeto desenvolvido em 6 fases na disciplina de **Engenharia de Software**.
 
 ### 1. Clonar o repositório e entrar na pasta
 ```bash
-git clone https://github.com
+git clone https://github.com/AnthonyCastroDev/astar-romenia.git
 cd astar-romenia
 ```
 
